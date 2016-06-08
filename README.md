@@ -1,4 +1,4 @@
-New Relic 2.3.0.132 Running on Alpine 3.4
+New Relic 2.3.0.132 running on Alpine 3.4
 
 Usage:
 
