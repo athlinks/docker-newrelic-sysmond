@@ -6,6 +6,6 @@ services:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
-      - "NEW_RELIC_LICENSE_KEY=<CHANGE ME>"
-      - "CUSTOM_HOSTNAME=<CHANGE ME>"
+      - "NEW_RELIC_LICENSE_KEY=<Add New Relic License Key Here>"
+      - "CUSTOM_HOSTNAME=<Set Hostname Here>"
       - "LOG_LEVEL=info"
