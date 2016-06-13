@@ -1,5 +1,8 @@
 # New Relic SysmonD Docker Image Based on Alpine
 
+[![DockerStars](https://img.shields.io/docker/stars/athlinks/newrelic-sysmond.svg)](https://registry.hub.docker.com/u/athlinks/newrelic-sysmond/)
+[![DockerPulls](https://img.shields.io/docker/pulls/athlinks/newrelic-sysmond.svg)](https://registry.hub.docker.com/u/athlinks/newrelic-sysmond/)
+
 ## Run (Manually)
 ```
 docker run -d \
