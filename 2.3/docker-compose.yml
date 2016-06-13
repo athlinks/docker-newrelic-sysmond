@@ -2,10 +2,13 @@ version: '2'
 services:
   newrelic:
     image: athlinks/newrelic-sysmond:2.3
+    environment:
+      - "NEW_RELIC_LICENSE_KEY=<NEW_RELIC_KEY>"
+      - "NEW_RELIC_HOSTNAME=<DESIRED_HOSTNAME>"
+      - "NEW_RELIC_LABEL_ENVIRONMENT=<ENVIRONMENT>"
+      - "NEW_RELIC_LABEL_APPLICATION=<APPLICATION>"
+      - "NEW_RELIC_LABEL_HOST_DC=<DC>"
+      - "NEW_RELIC_LABEL_REGION=<REGION>"
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
       - /var/run/docker.sock:/var/run/docker.sock
-    environment:
-      - "NEW_RELIC_LICENSE_KEY=<Add New Relic License Key Here>"
-      - "CUSTOM_HOSTNAME=<Set Hostname Here>"
-      - "LOG_LEVEL=info"
