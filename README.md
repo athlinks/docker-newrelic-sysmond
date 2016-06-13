@@ -1,7 +1,9 @@
-New Relic 2.3.0.132 running on Alpine 3.4
+# New Relic SysmonD Docker Image Based on Alpine
 
-Usage:
 
-./build-docker.sh to build image.
-
-Place newrelic-sysmond.service into your systemd service directory. Modify environment variables to match your environment.
+## Build
+```
+git clone https://github.com/athlinks/docker-newrelic-sysmond.git
+cd docker-newrelic-sysmond/2.3
+./build-docker.sh
+```

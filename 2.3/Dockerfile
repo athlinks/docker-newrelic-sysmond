@@ -1,4 +1,4 @@
-FROM athlinksengineering/alpine-3.4
+FROM athlinks/alpine:3.4
 
 ENV NEW_RELIC_LICENSE_KEY <Add New Relic License Key Here>
 ENV CUSTOM_HOSTNAME <Set Hostname Here>
